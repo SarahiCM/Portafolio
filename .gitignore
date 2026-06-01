@@ -4,4 +4,4 @@ dist/
 Thumbs.db
 .env
 .env.local
-.pnpm-storepnpm
+.pnpm-storepnpm                                    
