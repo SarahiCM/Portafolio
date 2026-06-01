@@ -8,6 +8,7 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,500;1,400&family=Geist:wght@300;400;500&display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@tabler/icons-webfont@latest/tabler-icons.min.css" />
+  <link rel="stylesheet" href="src/css/style.css" />
 </head>
 <body>
 
@@ -15,6 +16,7 @@
     <a href="#" class="nav-logo">Sarahi Caloso</a>
     <ul class="nav-links" id="nav-links">
       <li><a href="#sobre-mi">Sobre mí</a></li>
+      <li><a href="#experiencia">Experiencia</a></li>
       <li><a href="#habilidades">Habilidades</a></li>
       <li><a href="#proyectos">Proyectos</a></li>
       <li><a href="#contacto">Contacto</a></li>
@@ -69,17 +71,119 @@
         </div>
         <div class="acard sky">
           <div class="acard-label">Idiomas</div>
-          <div class="acard-val">Español · Inglés básico</div>
+          <div class="acard-val">Inglés B2</div>
         </div>
       </div>
     </div>
   </section>
 
+  <!-- EXPERIENCIA -->
+  <section id="experiencia">
+    <div class="section-inner">
+      <p class="s-eyebrow">Experiencia</p>
+      <h2 class="s-title">Trayectoria profesional</h2>
+      <div class="timeline">
+
+        <div class="titem">
+          <div class="titem-head">
+            <div>
+              <div class="titem-role">Desarrolladora Full Stack</div>
+              <div class="titem-company">Korean Technology</div>
+            </div>
+            <span class="titem-date">Mar 2024 – Actualidad</span>
+          </div>
+          <p class="titem-logro">Construcción de aplicaciones web y dashboards de BI en producción, integrando CMS, pagos y análisis de datos para operaciones reales.</p>
+        </div>
+
+        <div class="titem">
+          <div class="titem-head">
+            <div>
+              <div class="titem-role">Project Manager Jr — Proyecto BI</div>
+              <div class="titem-company">Korean Technology</div>
+            </div>
+            <span class="titem-date">Mar 2025 – Jun 2025</span>
+          </div>
+          <p class="titem-logro">Coordiné un proyecto BI completo de inicio a entrega, gestionando equipos técnicos y operativos con documentación ejecutiva.</p>
+        </div>
+
+        <div class="titem">
+          <div class="titem-head">
+            <div>
+              <div class="titem-role">Auxiliar de Ingeniería / Control de Inventarios</div>
+              <div class="titem-company">Farmacia Guadiana Durango</div>
+            </div>
+            <span class="titem-date">Jun 2023 – Abr 2024</span>
+          </div>
+          <p class="titem-logro">Análisis y control de inventarios por sucursal, reduciendo errores de registro mediante plantillas estandarizadas y auditorías internas.</p>
+        </div>
+
+        <div class="titem">
+          <div class="titem-head">
+            <div>
+              <div class="titem-role">Desarrolladora Web & Videojuego</div>
+              <div class="titem-company">Victoria de Durango</div>
+            </div>
+            <span class="titem-date">Ago 2022 – Feb 2023</span>
+          </div>
+          <p class="titem-logro">Desarrollo full stack de sitios web y videojuego, cubriendo todas las etapas del ciclo de vida del software.</p>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- HABILIDADES -->
   <section id="habilidades">
     <div class="section-inner">
       <p class="s-eyebrow">Habilidades</p>
-      <h2 class="s-title">Gestión y documentación y enfoque</h2>
-      <div class="skills-wrap">
+      <h2 class="s-title">Stack técnico y enfoque</h2>
+
+      <!-- Tech stack visual -->
+      <div class="stack-grid">
+        <div class="stack-col">
+          <div class="stack-col-label mint-txt">Frontend</div>
+          <div class="stack-items">
+            <span class="stack-item">React</span>
+            <span class="stack-item">Next.js</span>
+            <span class="stack-item">TypeScript</span>
+            <span class="stack-item">JavaScript</span>
+            <span class="stack-item">HTML5 / CSS3</span>
+          </div>
+        </div>
+        <div class="stack-col">
+          <div class="stack-col-label lav-txt">Backend & CMS</div>
+          <div class="stack-items">
+            <span class="stack-item">Node.js</span>
+            <span class="stack-item">Payload CMS</span>
+            <span class="stack-item">Sanity</span>
+            <span class="stack-item">Laravel</span>
+            <span class="stack-item">PHP / Python</span>
+          </div>
+        </div>
+        <div class="stack-col">
+          <div class="stack-col-label peach-txt">Datos & BI</div>
+          <div class="stack-items">
+            <span class="stack-item">SQL · PostgreSQL</span>
+            <span class="stack-item">Metabase</span>
+            <span class="stack-item">Cube.dev</span>
+            <span class="stack-item">Apache Superset</span>
+            <span class="stack-item">Excel avanzado</span>
+          </div>
+        </div>
+        <div class="stack-col">
+          <div class="stack-col-label sky-txt">Herramientas</div>
+          <div class="stack-items">
+            <span class="stack-item">Git / GitHub</span>
+            <span class="stack-item">AWS (S3, infra)</span>
+            <span class="stack-item">Clerk · Stripe</span>
+            <span class="stack-item">Notion · Figma</span>
+            <span class="stack-item">Bizagi BPMN</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Skills groups (original) -->
+      <div class="skills-wrap" style="margin-top:1.5rem;">
         <div class="sgroup">
           <div class="sgroup-head"><i class="ti ti-code" aria-hidden="true"></i> Desarrollo web</div>
           <div class="pills">
@@ -123,6 +227,7 @@
     </div>
   </section>
 
+  <!-- PROYECTOS -->
   <section id="proyectos">
     <div class="section-inner">
       <p class="s-eyebrow">Proyectos</p>
@@ -196,6 +301,45 @@
     </div>
   </section>
 
+  <!-- CERTIFICACIONES -->
+  <section id="certificaciones">
+    <div class="section-inner">
+      <p class="s-eyebrow">Formación</p>
+      <h2 class="s-title">Educación y certificaciones</h2>
+      <div class="edu-grid">
+        <div class="edu-card">
+          <div class="edu-icon lav"><i class="ti ti-school"></i></div>
+          <div>
+            <div class="edu-title">Ingeniería en Sistemas Computacionales</div>
+            <div class="edu-sub">Instituto Tecnológico de Durango · 2019–2024</div>
+            <div class="edu-note">Especialidad en Gestión Digital en las Organizaciones · Cédula 15262665</div>
+          </div>
+        </div>
+        <div class="edu-card">
+          <div class="edu-icon mint"><i class="ti ti-certificate"></i></div>
+          <div>
+            <div class="edu-title">Analítica de Datos en las Organizaciones</div>
+            <div class="edu-sub">Instituto Tecnológico de Durango</div>
+          </div>
+        </div>
+        <div class="edu-card">
+          <div class="edu-icon peach"><i class="ti ti-certificate"></i></div>
+          <div>
+            <div class="edu-title">Conmutación y Enrutamiento en Redes de Datos</div>
+            <div class="edu-sub">Instituto Tecnológico de Durango</div>
+          </div>
+        </div>
+        <div class="edu-card">
+          <div class="edu-icon sky"><i class="ti ti-language"></i></div>
+          <div>
+            <div class="edu-title">Inglés B2 — Upper Intermediate</div>
+            <div class="edu-sub">Lectura técnica · Comunicación profesional</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
   <section id="contacto">
     <div class="section-inner">
       <p class="s-eyebrow">Contacto</p>
@@ -245,6 +389,4 @@
     </div>
   </footer>
 
-  <script type="module" src="/src/js/main.js"></script>
-</body>
-</html>
+  <script type="module" src="src/js/main.js"></script>
