@@ -2,7 +2,25 @@ import { defineConfig } from 'vite'
 import { resolve } from 'path'
 
 export default defineConfig({
-  assetsInclude: ['**/*.pdf'],
+  server: {
+    fs: {
+      allow: ['.']
+    }
+  },
+  plugins: [
+    {
+      name: 'pdf-serve',
+      configureServer(server) {
+        server.middlewares.use((req, res, next) => {
+          if (req.url === '/CV_SarahiCaloso.pdf') {
+            res.setHeader('Content-Type', 'application/pdf');
+            res.setHeader('Content-Disposition', 'attachment; filename="CV_SarahiCaloso.pdf"');
+          }
+          next();
+        });
+      }
+    }
+  ],
   build: {
     rollupOptions: {
       input: {
