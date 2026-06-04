@@ -26,6 +26,8 @@ export default defineConfig({
       input: {
         main: resolve(__dirname, 'index.html'),
         dashboard: resolve(__dirname, 'src/proyectos/dashboard.html'),
+        interfaces: resolve(__dirname, 'src/proyectos/interfaces.html'),
+        procesos: resolve(__dirname, 'src/proyectos/procesos.html'),
       }
     }
   }
