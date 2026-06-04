@@ -25,10 +25,10 @@ export default defineConfig({
     rollupOptions: {
       input: {
         main: resolve(__dirname, 'index.html'),
-        dashboard: resolve(__dirname, 'proyectos/dashboard'),
-        interfaces: resolve(__dirname, 'proyectos/interfaces'),
-        procesos: resolve(__dirname, 'proyectos/procesos'),
-        proyectoaca: resolve(__dirname, 'proyectos/proyectoaca'),
+        dashboard: resolve(__dirname, 'proyectos/dashboard.html'),
+        interfaces: resolve(__dirname, 'proyectos/interfaces.html'),
+        procesos: resolve(__dirname, 'proyectos/procesos.html'),
+        proyectoaca: resolve(__dirname, 'proyectos/proyectoaca.html'),
       }
     }
   }
