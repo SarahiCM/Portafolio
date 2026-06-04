@@ -28,6 +28,7 @@ export default defineConfig({
         dashboard: resolve(__dirname, 'proyectos/dashboard.html'),
         interfaces: resolve(__dirname, 'proyectos/interfaces.html'),
         procesos: resolve(__dirname, 'proyectos/procesos.html'),
+        proyectoaca: resolve(__dirname, 'proyectos/proyectoaca.html'),
       }
     }
   }
